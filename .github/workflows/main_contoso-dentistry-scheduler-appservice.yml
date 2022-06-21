@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'contoso-dentistry-scheduler-appservice'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EF7F1FCC629F4DAAA870FFE1642B917D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BA96C8472C524FF8A4C1CEA1B94C5FD5 }}
           package: .
